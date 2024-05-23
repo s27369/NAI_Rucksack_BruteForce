@@ -21,5 +21,5 @@ def handle_data_str(file:str):
                 'vals': vals
             }
         if len(data.keys())!=0:
-            return length, capacity, data
+            return int(length), int(capacity), data
     raise ValueError("Data incorrect")

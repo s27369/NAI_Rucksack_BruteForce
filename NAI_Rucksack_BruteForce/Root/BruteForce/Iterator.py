@@ -16,7 +16,7 @@ class Iterator:
     def __init__(self, num_digits, num_base):
         self.size = num_digits
         self.num_base = num_base
-        self.digits = [0 for x in range(num_digits)]
+        self.digits = [0 for x in range((num_digits))]
 
     def next(self):
         yield self.digits
